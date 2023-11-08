@@ -22,3 +22,6 @@
 ![land_main.png](img%2Fland_main.png)
 
 //Pestañas de logIn singUp y main conectadas entre ellas, a la par que sus respectivas pestañas de tipo land tambien
+
+
+//Los ficheros de AgroPlanHarvest no estan relacionadas con este trabajo
