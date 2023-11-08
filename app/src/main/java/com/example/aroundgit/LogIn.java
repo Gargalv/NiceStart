@@ -24,6 +24,9 @@ public class LogIn extends AppCompatActivity {
         Intent intent = new Intent (LogIn.this, Signup.class);
         startActivity(intent);
 
+
+
+
     }
 
 

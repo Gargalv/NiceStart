@@ -11,11 +11,12 @@
         android:id="@+id/logo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        app:srcCompat="@drawable/thunder"
-        android:layout_marginTop="48dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thunder" />
 
     <ImageView
         android:id="@+id/mujer"
@@ -31,27 +32,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.35" />
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.8" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/till"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/logo"
-        app:startIconDrawable="@drawable/usericon"
 
 
-        >
+        app:startIconDrawable="@drawable/usericon">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -90,6 +92,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@id/pass"
+        android:onClick="openMain"
         android:text="LOGIN"
         android:backgroundTint="@color/white"
         android:textColor="@color/purple_500"
@@ -101,6 +104,7 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="openSignup"
         android:text="SINGUP"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
