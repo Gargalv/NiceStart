@@ -30,7 +30,7 @@ public class Splash extends AppCompatActivity {
         ImageView fondo=findViewById(R.id.fondo);
 
         Glide.with(this)
-                .load("https://d500.epimg.net/cincodias/imagenes/2015/02/16/lifestyle/1424101105_333710_1424101254_noticia_normal.jpg")
+                .load("https://p4.wallpaperbetter.com/wallpaper/763/816/3/interstellar-movie-galaxy-stars-moon-planet-hd-wallpaper-preview.jpg")
                 .transition(DrawableTransitionOptions.withCrossFade(50))
                 .centerCrop()
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
