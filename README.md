@@ -52,3 +52,6 @@ Por otro lado esta la pestaña de NoPeople en la cual tendremos una imagen de un
 
 
 //Los ficheros de AgroPlanHarvest no estan relacionadas con este trabajo
+
+
+//Esta linea ha sido añadida por Marcos Romera
