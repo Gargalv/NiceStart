@@ -35,7 +35,7 @@ Pestañas de logIn singUp y main conectadas entre ellas, a la par que sus respec
 
 Imagen de fondo de la pantalla de carga de la aplicacion que a su vez tiene el logo del rayo parpadenado 
 
-![splash.png](img%2Fsplash.png)
+![splashgif.gif](img%2Fsplashgif.gif)
 
 Pestaña main terminada con una barra de puntuacion, y una imagen de una estrella añadida en el medio de la pantalla. A esta pestaña podemos llegar mediante la pestaña de login dandole al login
 
